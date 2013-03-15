@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		647EA8A916F2F58300FF36A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 647EA8A816F2F58300FF36A5 /* UIKit.framework */; };
+		647EA8AB16F2F58300FF36A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 647EA8AA16F2F58300FF36A5 /* Foundation.framework */; };
+		647EA8AD16F2F58300FF36A5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 647EA8AC16F2F58300FF36A5 /* CoreGraphics.framework */; };
+		647EA8B316F2F58300FF36A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 647EA8B116F2F58300FF36A5 /* InfoPlist.strings */; };
+		647EA8B516F2F58300FF36A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 647EA8B416F2F58300FF36A5 /* main.m */; };
+		647EA8B916F2F58300FF36A5 /* KZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 647EA8B816F2F58300FF36A5 /* KZAppDelegate.m */; };
+		647EA8BB16F2F58300FF36A5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 647EA8BA16F2F58300FF36A5 /* Default.png */; };
+		647EA8BD16F2F58300FF36A5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 647EA8BC16F2F58300FF36A5 /* Default@2x.png */; };
+		647EA8BF16F2F58300FF36A5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 647EA8BE16F2F58300FF36A5 /* Default-568h@2x.png */; };
+		647EA8C216F2F58300FF36A5 /* KZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 647EA8C116F2F58300FF36A5 /* KZViewController.m */; };
+		647EA8C516F2F58300FF36A5 /* KZViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 647EA8C316F2F58300FF36A5 /* KZViewController_iPhone.xib */; };
+		647EA8C816F2F58300FF36A5 /* KZViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 647EA8C616F2F58300FF36A5 /* KZViewController_iPad.xib */; };
+		647EA8D016F2F58300FF36A5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 647EA8CF16F2F58300FF36A5 /* SenTestingKit.framework */; };
+		647EA8D116F2F58300FF36A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 647EA8A816F2F58300FF36A5 /* UIKit.framework */; };
+		647EA8D216F2F58300FF36A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 647EA8AA16F2F58300FF36A5 /* Foundation.framework */; };
+		647EA8DA16F2F58300FF36A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 647EA8D816F2F58300FF36A5 /* InfoPlist.strings */; };
+		647EA8DD16F2F58300FF36A5 /* SimpleClockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 647EA8DC16F2F58300FF36A5 /* SimpleClockTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		647EA8D316F2F58300FF36A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 647EA89D16F2F58200FF36A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 647EA8A416F2F58300FF36A5;
+			remoteInfo = SimpleClock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		647EA8A516F2F58300FF36A5 /* SimpleClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		647EA8A816F2F58300FF36A5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		647EA8AA16F2F58300FF36A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		647EA8AC16F2F58300FF36A5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		647EA8B016F2F58300FF36A5 /* SimpleClock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleClock-Info.plist"; sourceTree = "<group>"; };
+		647EA8B216F2F58300FF36A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		647EA8B416F2F58300FF36A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		647EA8B616F2F58300FF36A5 /* SimpleClock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleClock-Prefix.pch"; sourceTree = "<group>"; };
+		647EA8B716F2F58300FF36A5 /* KZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KZAppDelegate.h; sourceTree = "<group>"; };
+		647EA8B816F2F58300FF36A5 /* KZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KZAppDelegate.m; sourceTree = "<group>"; };
+		647EA8BA16F2F58300FF36A5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		647EA8BC16F2F58300FF36A5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		647EA8BE16F2F58300FF36A5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		647EA8C016F2F58300FF36A5 /* KZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KZViewController.h; sourceTree = "<group>"; };
+		647EA8C116F2F58300FF36A5 /* KZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KZViewController.m; sourceTree = "<group>"; };
+		647EA8C416F2F58300FF36A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KZViewController_iPhone.xib; sourceTree = "<group>"; };
+		647EA8C716F2F58300FF36A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KZViewController_iPad.xib; sourceTree = "<group>"; };
+		647EA8CE16F2F58300FF36A5 /* SimpleClockTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleClockTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		647EA8CF16F2F58300FF36A5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		647EA8D716F2F58300FF36A5 /* SimpleClockTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleClockTests-Info.plist"; sourceTree = "<group>"; };
+		647EA8D916F2F58300FF36A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		647EA8DB16F2F58300FF36A5 /* SimpleClockTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleClockTests.h; sourceTree = "<group>"; };
+		647EA8DC16F2F58300FF36A5 /* SimpleClockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleClockTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		647EA8A216F2F58300FF36A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				647EA8A916F2F58300FF36A5 /* UIKit.framework in Frameworks */,
+				647EA8AB16F2F58300FF36A5 /* Foundation.framework in Frameworks */,
+				647EA8AD16F2F58300FF36A5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		647EA8CA16F2F58300FF36A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				647EA8D016F2F58300FF36A5 /* SenTestingKit.framework in Frameworks */,
+				647EA8D116F2F58300FF36A5 /* UIKit.framework in Frameworks */,
+				647EA8D216F2F58300FF36A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		647EA89C16F2F58200FF36A5 = {
+			isa = PBXGroup;
+			children = (
+				647EA8AE16F2F58300FF36A5 /* SimpleClock */,
+				647EA8D516F2F58300FF36A5 /* SimpleClockTests */,
+				647EA8A716F2F58300FF36A5 /* Frameworks */,
+				647EA8A616F2F58300FF36A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		647EA8A616F2F58300FF36A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				647EA8A516F2F58300FF36A5 /* SimpleClock.app */,
+				647EA8CE16F2F58300FF36A5 /* SimpleClockTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		647EA8A716F2F58300FF36A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				647EA8A816F2F58300FF36A5 /* UIKit.framework */,
+				647EA8AA16F2F58300FF36A5 /* Foundation.framework */,
+				647EA8AC16F2F58300FF36A5 /* CoreGraphics.framework */,
+				647EA8CF16F2F58300FF36A5 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		647EA8AE16F2F58300FF36A5 /* SimpleClock */ = {
+			isa = PBXGroup;
+			children = (
+				647EA8B716F2F58300FF36A5 /* KZAppDelegate.h */,
+				647EA8B816F2F58300FF36A5 /* KZAppDelegate.m */,
+				647EA8C016F2F58300FF36A5 /* KZViewController.h */,
+				647EA8C116F2F58300FF36A5 /* KZViewController.m */,
+				647EA8C316F2F58300FF36A5 /* KZViewController_iPhone.xib */,
+				647EA8C616F2F58300FF36A5 /* KZViewController_iPad.xib */,
+				647EA8AF16F2F58300FF36A5 /* Supporting Files */,
+			);
+			path = SimpleClock;
+			sourceTree = "<group>";
+		};
+		647EA8AF16F2F58300FF36A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				647EA8B016F2F58300FF36A5 /* SimpleClock-Info.plist */,
+				647EA8B116F2F58300FF36A5 /* InfoPlist.strings */,
+				647EA8B416F2F58300FF36A5 /* main.m */,
+				647EA8B616F2F58300FF36A5 /* SimpleClock-Prefix.pch */,
+				647EA8BA16F2F58300FF36A5 /* Default.png */,
+				647EA8BC16F2F58300FF36A5 /* Default@2x.png */,
+				647EA8BE16F2F58300FF36A5 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		647EA8D516F2F58300FF36A5 /* SimpleClockTests */ = {
+			isa = PBXGroup;
+			children = (
+				647EA8DB16F2F58300FF36A5 /* SimpleClockTests.h */,
+				647EA8DC16F2F58300FF36A5 /* SimpleClockTests.m */,
+				647EA8D616F2F58300FF36A5 /* Supporting Files */,
+			);
+			path = SimpleClockTests;
+			sourceTree = "<group>";
+		};
+		647EA8D616F2F58300FF36A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				647EA8D716F2F58300FF36A5 /* SimpleClockTests-Info.plist */,
+				647EA8D816F2F58300FF36A5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		647EA8A416F2F58300FF36A5 /* SimpleClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 647EA8E016F2F58300FF36A5 /* Build configuration list for PBXNativeTarget "SimpleClock" */;
+			buildPhases = (
+				647EA8A116F2F58300FF36A5 /* Sources */,
+				647EA8A216F2F58300FF36A5 /* Frameworks */,
+				647EA8A316F2F58300FF36A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleClock;
+			productName = SimpleClock;
+			productReference = 647EA8A516F2F58300FF36A5 /* SimpleClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		647EA8CD16F2F58300FF36A5 /* SimpleClockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 647EA8E316F2F58300FF36A5 /* Build configuration list for PBXNativeTarget "SimpleClockTests" */;
+			buildPhases = (
+				647EA8C916F2F58300FF36A5 /* Sources */,
+				647EA8CA16F2F58300FF36A5 /* Frameworks */,
+				647EA8CB16F2F58300FF36A5 /* Resources */,
+				647EA8CC16F2F58300FF36A5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				647EA8D416F2F58300FF36A5 /* PBXTargetDependency */,
+			);
+			name = SimpleClockTests;
+			productName = SimpleClockTests;
+			productReference = 647EA8CE16F2F58300FF36A5 /* SimpleClockTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		647EA89D16F2F58200FF36A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KZ;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Kazuhito Ochiai";
+			};
+			buildConfigurationList = 647EA8A016F2F58200FF36A5 /* Build configuration list for PBXProject "SimpleClock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 647EA89C16F2F58200FF36A5;
+			productRefGroup = 647EA8A616F2F58300FF36A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				647EA8A416F2F58300FF36A5 /* SimpleClock */,
+				647EA8CD16F2F58300FF36A5 /* SimpleClockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		647EA8A316F2F58300FF36A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				647EA8B316F2F58300FF36A5 /* InfoPlist.strings in Resources */,
+				647EA8BB16F2F58300FF36A5 /* Default.png in Resources */,
+				647EA8BD16F2F58300FF36A5 /* Default@2x.png in Resources */,
+				647EA8BF16F2F58300FF36A5 /* Default-568h@2x.png in Resources */,
+				647EA8C516F2F58300FF36A5 /* KZViewController_iPhone.xib in Resources */,
+				647EA8C816F2F58300FF36A5 /* KZViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		647EA8CB16F2F58300FF36A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				647EA8DA16F2F58300FF36A5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		647EA8CC16F2F58300FF36A5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		647EA8A116F2F58300FF36A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				647EA8B516F2F58300FF36A5 /* main.m in Sources */,
+				647EA8B916F2F58300FF36A5 /* KZAppDelegate.m in Sources */,
+				647EA8C216F2F58300FF36A5 /* KZViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		647EA8C916F2F58300FF36A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				647EA8DD16F2F58300FF36A5 /* SimpleClockTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		647EA8D416F2F58300FF36A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 647EA8A416F2F58300FF36A5 /* SimpleClock */;
+			targetProxy = 647EA8D316F2F58300FF36A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		647EA8B116F2F58300FF36A5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				647EA8B216F2F58300FF36A5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		647EA8C316F2F58300FF36A5 /* KZViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				647EA8C416F2F58300FF36A5 /* en */,
+			);
+			name = KZViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		647EA8C616F2F58300FF36A5 /* KZViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				647EA8C716F2F58300FF36A5 /* en */,
+			);
+			name = KZViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		647EA8D816F2F58300FF36A5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				647EA8D916F2F58300FF36A5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		647EA8DE16F2F58300FF36A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		647EA8DF16F2F58300FF36A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		647EA8E116F2F58300FF36A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleClock/SimpleClock-Prefix.pch";
+				INFOPLIST_FILE = "SimpleClock/SimpleClock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		647EA8E216F2F58300FF36A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleClock/SimpleClock-Prefix.pch";
+				INFOPLIST_FILE = "SimpleClock/SimpleClock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		647EA8E416F2F58300FF36A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleClock.app/SimpleClock";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleClock/SimpleClock-Prefix.pch";
+				INFOPLIST_FILE = "SimpleClockTests/SimpleClockTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		647EA8E516F2F58300FF36A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleClock.app/SimpleClock";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleClock/SimpleClock-Prefix.pch";
+				INFOPLIST_FILE = "SimpleClockTests/SimpleClockTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		647EA8A016F2F58200FF36A5 /* Build configuration list for PBXProject "SimpleClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				647EA8DE16F2F58300FF36A5 /* Debug */,
+				647EA8DF16F2F58300FF36A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		647EA8E016F2F58300FF36A5 /* Build configuration list for PBXNativeTarget "SimpleClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				647EA8E116F2F58300FF36A5 /* Debug */,
+				647EA8E216F2F58300FF36A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		647EA8E316F2F58300FF36A5 /* Build configuration list for PBXNativeTarget "SimpleClockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				647EA8E416F2F58300FF36A5 /* Debug */,
+				647EA8E516F2F58300FF36A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 647EA89D16F2F58200FF36A5 /* Project object */;
+}
