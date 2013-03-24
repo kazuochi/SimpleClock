@@ -7,15 +7,14 @@
 //
 
 #import "KZAppDelegate.h"
-
-#import "KZViewController.h"
+#import "KZSimpleClockViewController.h"
 
 @implementation KZAppDelegate
 
 - (void)dealloc
 {
     [_window release];
-    [_viewController release];
+    [_rootViewController release];
     [super dealloc];
 }
 
@@ -23,12 +22,15 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
+   
+    UIViewController *mainViewController = nil;
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        self.viewController = [[[KZViewController alloc] initWithNibName:@"KZViewController_iPhone" bundle:nil] autorelease];
+        mainViewController = [[[KZSimpleClockViewController alloc] initWithNibName:@"KZSimpleClockViewController_iPhone" bundle:nil] autorelease];
     } else {
-        self.viewController = [[[KZViewController alloc] initWithNibName:@"KZViewController_iPad" bundle:nil] autorelease];
+        mainViewController = [[[KZSimpleClockViewController alloc] initWithNibName:@"KZSimpleClockViewController_iPad" bundle:nil] autorelease];
     }
-    self.window.rootViewController = self.viewController;
+     self.rootViewController= [[[UINavigationController alloc] initWithRootViewController:mainViewController] autorelease];
+    self.window.rootViewController = self.rootViewController;
     [self.window makeKeyAndVisible];
     return YES;
 }

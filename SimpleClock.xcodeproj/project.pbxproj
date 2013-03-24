@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6458328C16F3ABCE00424769 /* KZTimeZoneSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6458328A16F3ABCE00424769 /* KZTimeZoneSettingViewController.m */; };
+		6458328D16F3ABCE00424769 /* KZTimeZoneSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6458328B16F3ABCE00424769 /* KZTimeZoneSettingViewController.xib */; };
+		646E8E5916F916BF006C90B8 /* KZSimpleClockViewController_iPhone-landscape.xib in Resources */ = {isa = PBXBuildFile; fileRef = 646E8E5816F916BF006C90B8 /* KZSimpleClockViewController_iPhone-landscape.xib */; };
+		646E8E5D16F91EB9006C90B8 /* UINavigationController+allOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 646E8E5C16F91EB9006C90B8 /* UINavigationController+allOrientation.m */; };
+		646E8E5F16F921C5006C90B8 /* KZSimpleClockViewController_iPad-landscape.xib in Resources */ = {isa = PBXBuildFile; fileRef = 646E8E5E16F921C5006C90B8 /* KZSimpleClockViewController_iPad-landscape.xib */; };
 		647EA8A916F2F58300FF36A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 647EA8A816F2F58300FF36A5 /* UIKit.framework */; };
 		647EA8AB16F2F58300FF36A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 647EA8AA16F2F58300FF36A5 /* Foundation.framework */; };
 		647EA8AD16F2F58300FF36A5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 647EA8AC16F2F58300FF36A5 /* CoreGraphics.framework */; };
@@ -16,14 +21,18 @@
 		647EA8BB16F2F58300FF36A5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 647EA8BA16F2F58300FF36A5 /* Default.png */; };
 		647EA8BD16F2F58300FF36A5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 647EA8BC16F2F58300FF36A5 /* Default@2x.png */; };
 		647EA8BF16F2F58300FF36A5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 647EA8BE16F2F58300FF36A5 /* Default-568h@2x.png */; };
-		647EA8C216F2F58300FF36A5 /* KZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 647EA8C116F2F58300FF36A5 /* KZViewController.m */; };
-		647EA8C516F2F58300FF36A5 /* KZViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 647EA8C316F2F58300FF36A5 /* KZViewController_iPhone.xib */; };
-		647EA8C816F2F58300FF36A5 /* KZViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 647EA8C616F2F58300FF36A5 /* KZViewController_iPad.xib */; };
+		647EA8C216F2F58300FF36A5 /* KZSimpleClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 647EA8C116F2F58300FF36A5 /* KZSimpleClockViewController.m */; };
+		647EA8C516F2F58300FF36A5 /* KZSimpleClockViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 647EA8C316F2F58300FF36A5 /* KZSimpleClockViewController_iPhone.xib */; };
+		647EA8C816F2F58300FF36A5 /* KZSimpleClockViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 647EA8C616F2F58300FF36A5 /* KZSimpleClockViewController_iPad.xib */; };
 		647EA8D016F2F58300FF36A5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 647EA8CF16F2F58300FF36A5 /* SenTestingKit.framework */; };
 		647EA8D116F2F58300FF36A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 647EA8A816F2F58300FF36A5 /* UIKit.framework */; };
 		647EA8D216F2F58300FF36A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 647EA8AA16F2F58300FF36A5 /* Foundation.framework */; };
 		647EA8DA16F2F58300FF36A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 647EA8D816F2F58300FF36A5 /* InfoPlist.strings */; };
 		647EA8DD16F2F58300FF36A5 /* SimpleClockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 647EA8DC16F2F58300FF36A5 /* SimpleClockTests.m */; };
+		647EA8EB16F2F78700FF36A5 /* KZClock.m in Sources */ = {isa = PBXBuildFile; fileRef = 647EA8EA16F2F78700FF36A5 /* KZClock.m */; };
+		64BA965016F9C32800D60969 /* KZClockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BA964F16F9C32800D60969 /* KZClockTests.m */; };
+		64EBFD0016F4038A0070A081 /* DS-DIGIB.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 64EBFCFD16F4038A0070A081 /* DS-DIGIB.TTF */; };
+		64EBFD0316F403980070A081 /* DS-DIGIB.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 64EBFCFD16F4038A0070A081 /* DS-DIGIB.TTF */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +46,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6458328916F3ABCE00424769 /* KZTimeZoneSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZTimeZoneSettingViewController.h; sourceTree = "<group>"; };
+		6458328A16F3ABCE00424769 /* KZTimeZoneSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZTimeZoneSettingViewController.m; sourceTree = "<group>"; };
+		6458328B16F3ABCE00424769 /* KZTimeZoneSettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KZTimeZoneSettingViewController.xib; sourceTree = "<group>"; };
+		646E8E5816F916BF006C90B8 /* KZSimpleClockViewController_iPhone-landscape.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "KZSimpleClockViewController_iPhone-landscape.xib"; sourceTree = "<group>"; };
+		646E8E5B16F91EB9006C90B8 /* UINavigationController+allOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+allOrientation.h"; sourceTree = "<group>"; };
+		646E8E5C16F91EB9006C90B8 /* UINavigationController+allOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+allOrientation.m"; sourceTree = "<group>"; };
+		646E8E5E16F921C5006C90B8 /* KZSimpleClockViewController_iPad-landscape.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "KZSimpleClockViewController_iPad-landscape.xib"; sourceTree = "<group>"; };
 		647EA8A516F2F58300FF36A5 /* SimpleClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		647EA8A816F2F58300FF36A5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		647EA8AA16F2F58300FF36A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -50,16 +66,21 @@
 		647EA8BA16F2F58300FF36A5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		647EA8BC16F2F58300FF36A5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		647EA8BE16F2F58300FF36A5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		647EA8C016F2F58300FF36A5 /* KZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KZViewController.h; sourceTree = "<group>"; };
-		647EA8C116F2F58300FF36A5 /* KZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KZViewController.m; sourceTree = "<group>"; };
-		647EA8C416F2F58300FF36A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KZViewController_iPhone.xib; sourceTree = "<group>"; };
-		647EA8C716F2F58300FF36A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KZViewController_iPad.xib; sourceTree = "<group>"; };
+		647EA8C016F2F58300FF36A5 /* KZSimpleClockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KZSimpleClockViewController.h; sourceTree = "<group>"; };
+		647EA8C116F2F58300FF36A5 /* KZSimpleClockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KZSimpleClockViewController.m; sourceTree = "<group>"; };
+		647EA8C416F2F58300FF36A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KZSimpleClockViewController_iPhone.xib; sourceTree = "<group>"; };
+		647EA8C716F2F58300FF36A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KZSimpleClockViewController_iPad.xib; sourceTree = "<group>"; };
 		647EA8CE16F2F58300FF36A5 /* SimpleClockTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleClockTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		647EA8CF16F2F58300FF36A5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		647EA8D716F2F58300FF36A5 /* SimpleClockTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleClockTests-Info.plist"; sourceTree = "<group>"; };
 		647EA8D916F2F58300FF36A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		647EA8DB16F2F58300FF36A5 /* SimpleClockTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleClockTests.h; sourceTree = "<group>"; };
 		647EA8DC16F2F58300FF36A5 /* SimpleClockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleClockTests.m; sourceTree = "<group>"; };
+		647EA8E916F2F78700FF36A5 /* KZClock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZClock.h; sourceTree = "<group>"; };
+		647EA8EA16F2F78700FF36A5 /* KZClock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZClock.m; sourceTree = "<group>"; };
+		64BA964E16F9C32800D60969 /* KZClockTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZClockTests.h; sourceTree = "<group>"; };
+		64BA964F16F9C32800D60969 /* KZClockTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZClockTests.m; sourceTree = "<group>"; };
+		64EBFCFD16F4038A0070A081 /* DS-DIGIB.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DS-DIGIB.TTF"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +107,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		646E8E5A16F91B82006C90B8 /* KZSImpleClockViewController */ = {
+			isa = PBXGroup;
+			children = (
+				647EA8C316F2F58300FF36A5 /* KZSimpleClockViewController_iPhone.xib */,
+				646E8E5816F916BF006C90B8 /* KZSimpleClockViewController_iPhone-landscape.xib */,
+				647EA8C616F2F58300FF36A5 /* KZSimpleClockViewController_iPad.xib */,
+				646E8E5E16F921C5006C90B8 /* KZSimpleClockViewController_iPad-landscape.xib */,
+			);
+			name = KZSImpleClockViewController;
+			sourceTree = "<group>";
+		};
 		647EA89C16F2F58200FF36A5 = {
 			isa = PBXGroup;
 			children = (
@@ -119,12 +151,9 @@
 		647EA8AE16F2F58300FF36A5 /* SimpleClock */ = {
 			isa = PBXGroup;
 			children = (
-				647EA8B716F2F58300FF36A5 /* KZAppDelegate.h */,
-				647EA8B816F2F58300FF36A5 /* KZAppDelegate.m */,
-				647EA8C016F2F58300FF36A5 /* KZViewController.h */,
-				647EA8C116F2F58300FF36A5 /* KZViewController.m */,
-				647EA8C316F2F58300FF36A5 /* KZViewController_iPhone.xib */,
-				647EA8C616F2F58300FF36A5 /* KZViewController_iPad.xib */,
+				647EA8EC16F30AF700FF36A5 /* model */,
+				647EA8ED16F30B0100FF36A5 /* view */,
+				647EA8EE16F30B0D00FF36A5 /* controller */,
 				647EA8AF16F2F58300FF36A5 /* Supporting Files */,
 			);
 			path = SimpleClock;
@@ -133,6 +162,11 @@
 		647EA8AF16F2F58300FF36A5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				647EA8B716F2F58300FF36A5 /* KZAppDelegate.h */,
+				647EA8B816F2F58300FF36A5 /* KZAppDelegate.m */,
+				646E8E5B16F91EB9006C90B8 /* UINavigationController+allOrientation.h */,
+				646E8E5C16F91EB9006C90B8 /* UINavigationController+allOrientation.m */,
+				64EBFCFD16F4038A0070A081 /* DS-DIGIB.TTF */,
 				647EA8B016F2F58300FF36A5 /* SimpleClock-Info.plist */,
 				647EA8B116F2F58300FF36A5 /* InfoPlist.strings */,
 				647EA8B416F2F58300FF36A5 /* main.m */,
@@ -149,6 +183,8 @@
 			children = (
 				647EA8DB16F2F58300FF36A5 /* SimpleClockTests.h */,
 				647EA8DC16F2F58300FF36A5 /* SimpleClockTests.m */,
+				64BA964E16F9C32800D60969 /* KZClockTests.h */,
+				64BA964F16F9C32800D60969 /* KZClockTests.m */,
 				647EA8D616F2F58300FF36A5 /* Supporting Files */,
 			);
 			path = SimpleClockTests;
@@ -161,6 +197,35 @@
 				647EA8D816F2F58300FF36A5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		647EA8EC16F30AF700FF36A5 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				647EA8E916F2F78700FF36A5 /* KZClock.h */,
+				647EA8EA16F2F78700FF36A5 /* KZClock.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		647EA8ED16F30B0100FF36A5 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				646E8E5A16F91B82006C90B8 /* KZSImpleClockViewController */,
+				6458328B16F3ABCE00424769 /* KZTimeZoneSettingViewController.xib */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		647EA8EE16F30B0D00FF36A5 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				647EA8C016F2F58300FF36A5 /* KZSimpleClockViewController.h */,
+				647EA8C116F2F58300FF36A5 /* KZSimpleClockViewController.m */,
+				6458328916F3ABCE00424769 /* KZTimeZoneSettingViewController.h */,
+				6458328A16F3ABCE00424769 /* KZTimeZoneSettingViewController.m */,
+			);
+			name = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,12 +300,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64EBFD0316F403980070A081 /* DS-DIGIB.TTF in Resources */,
 				647EA8B316F2F58300FF36A5 /* InfoPlist.strings in Resources */,
 				647EA8BB16F2F58300FF36A5 /* Default.png in Resources */,
 				647EA8BD16F2F58300FF36A5 /* Default@2x.png in Resources */,
 				647EA8BF16F2F58300FF36A5 /* Default-568h@2x.png in Resources */,
-				647EA8C516F2F58300FF36A5 /* KZViewController_iPhone.xib in Resources */,
-				647EA8C816F2F58300FF36A5 /* KZViewController_iPad.xib in Resources */,
+				647EA8C516F2F58300FF36A5 /* KZSimpleClockViewController_iPhone.xib in Resources */,
+				647EA8C816F2F58300FF36A5 /* KZSimpleClockViewController_iPad.xib in Resources */,
+				6458328D16F3ABCE00424769 /* KZTimeZoneSettingViewController.xib in Resources */,
+				646E8E5916F916BF006C90B8 /* KZSimpleClockViewController_iPhone-landscape.xib in Resources */,
+				646E8E5F16F921C5006C90B8 /* KZSimpleClockViewController_iPad-landscape.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +318,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				647EA8DA16F2F58300FF36A5 /* InfoPlist.strings in Resources */,
+				64EBFD0016F4038A0070A081 /* DS-DIGIB.TTF in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +347,10 @@
 			files = (
 				647EA8B516F2F58300FF36A5 /* main.m in Sources */,
 				647EA8B916F2F58300FF36A5 /* KZAppDelegate.m in Sources */,
-				647EA8C216F2F58300FF36A5 /* KZViewController.m in Sources */,
+				647EA8C216F2F58300FF36A5 /* KZSimpleClockViewController.m in Sources */,
+				647EA8EB16F2F78700FF36A5 /* KZClock.m in Sources */,
+				6458328C16F3ABCE00424769 /* KZTimeZoneSettingViewController.m in Sources */,
+				646E8E5D16F91EB9006C90B8 /* UINavigationController+allOrientation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +359,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				647EA8DD16F2F58300FF36A5 /* SimpleClockTests.m in Sources */,
+				64BA965016F9C32800D60969 /* KZClockTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,20 +382,20 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		647EA8C316F2F58300FF36A5 /* KZViewController_iPhone.xib */ = {
+		647EA8C316F2F58300FF36A5 /* KZSimpleClockViewController_iPhone.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				647EA8C416F2F58300FF36A5 /* en */,
 			);
-			name = KZViewController_iPhone.xib;
+			name = KZSimpleClockViewController_iPhone.xib;
 			sourceTree = "<group>";
 		};
-		647EA8C616F2F58300FF36A5 /* KZViewController_iPad.xib */ = {
+		647EA8C616F2F58300FF36A5 /* KZSimpleClockViewController_iPad.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				647EA8C716F2F58300FF36A5 /* en */,
 			);
-			name = KZViewController_iPad.xib;
+			name = KZSimpleClockViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 		647EA8D816F2F58300FF36A5 /* InfoPlist.strings */ = {
@@ -346,6 +420,7 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Kazuhito Ochiai (S583AV7KGC)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -361,6 +436,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "CE19BE41-A4B2-46FF-BFF3-8B7C891296D4";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -377,6 +453,7 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Kazuhito Ochiai (S583AV7KGC)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -385,6 +462,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "CE19BE41-A4B2-46FF-BFF3-8B7C891296D4";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -466,6 +544,7 @@
 				647EA8E216F2F58300FF36A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		647EA8E316F2F58300FF36A5 /* Build configuration list for PBXNativeTarget "SimpleClockTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +553,7 @@
 				647EA8E516F2F58300FF36A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
